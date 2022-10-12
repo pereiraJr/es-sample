@@ -1,0 +1,24 @@
+{
+  "name": "es-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node ./src/index.js --es-module-specifier-resolution=node",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+
+  },
+  "type": "module",
+  "devDependencies": {
+    "@babel/node": "^7.19.1",
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.4",
+    "babel-jest": "^29.1.2",
+    "jest": "^29.1.2"
+  }
+}
